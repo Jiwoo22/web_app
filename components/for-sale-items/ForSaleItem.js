@@ -11,9 +11,9 @@ const ForSaleItem = (props) => {
         </div>
         <div className={classes.content}>
             <h3>{props.title}</h3>
-            <h3>{props.price}</h3>
+            {/* <h3>{props.price}</h3> */}
         </div>
-        <div className={classes.action}>
+        <div className={classes.actions}>
             <button>Send Message</button>
         </div>
       </Card>
