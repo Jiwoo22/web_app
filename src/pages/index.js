@@ -1,5 +1,8 @@
-import Layout from "../components/layout/Layout";
 import ForSaleItemList from "../components/for-sale-items/ForSaleItemList";
+// import { Amplify } from 'aws-amplify';
+// import awsconfig from '../aws-exports'
+
+// Amplify.configure(awsconfig);
 
 const DUMMY_ITEMS = [
   {
