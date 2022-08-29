@@ -16,7 +16,9 @@ function MainNavigation() {
           </li>
         </ul>
       </nav>
-      <Button>Log in</Button>
+      <Link href="/login">
+        <Button>Log in</Button>
+      </Link>
     </header>
   );
 }
