@@ -31,7 +31,7 @@
     text-align: center;
 }
 
-.actions button {
+/* .actions button {
     font: inherit;
     cursor: pointer;
     color: rgb(46, 104, 170);
@@ -44,4 +44,4 @@
 .actions button:hover,
 .actions button:active {
   background-color: hsla(105, 67%, 66%, 0.878);
-}
+} */

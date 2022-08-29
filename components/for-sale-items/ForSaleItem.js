@@ -1,6 +1,7 @@
 import Card from "../ui/Card";
 import classes from "./ForSaleItem.module.css";
 import Image from "next/image";
+import Button from "../ui/Button";
 
 const ForSaleItem = (props) => {
   return (
@@ -14,7 +15,7 @@ const ForSaleItem = (props) => {
             {/* <h3>{props.price}</h3> */}
         </div>
         <div className={classes.actions}>
-            <button>Send Message</button>
+            <Button>Send Message</Button>
         </div>
       </Card>
     </li>

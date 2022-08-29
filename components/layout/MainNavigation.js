@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Button from "../ui/Button";
 import classes from "./MainNavigation.module.css";
 
 function MainNavigation() {
@@ -15,7 +16,7 @@ function MainNavigation() {
           </li>
         </ul>
       </nav>
-      <button>Log in</button>
+      <Button>Log in</Button>
     </header>
   );
 }

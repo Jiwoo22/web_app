@@ -42,7 +42,7 @@
   color: white;
 }
 
-.header button {
+/* .header button {
   font: inherit;
   cursor: pointer;
   color: rgb(46, 104, 170);
@@ -52,9 +52,9 @@
   border-radius: 4px;
   font-weight: bold;
   /* margin-left: 15rem; */
-}
+/* } */
 
-.header button:hover,
+/* .header button:hover,
 .header button:active {
   background-color: hsla(105, 67%, 66%, 0.878);
-}
+} */ 
