@@ -22,9 +22,7 @@ const DUMMY_ITEMS = [
 
 function HomePage() {
   return (
-    <Layout>
       <ForSaleItemList items={DUMMY_ITEMS} />
-    </Layout>
   );
 }
 
