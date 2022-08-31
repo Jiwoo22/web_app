@@ -1,0 +1,47 @@
+.item {
+    margin: 1rem 0;
+}
+
+.image {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 6px;
+    /* border-top-right-radius: 6px;
+    border-top-left-radius: 6px; */
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    text-align: center;
+    padding: 1rem;
+}
+
+.content h3 {
+    font-size: 1.25rem;
+    color: black;
+}
+
+.actions {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* .actions button {
+    font: inherit;
+    cursor: pointer;
+    color: rgb(46, 104, 170);
+    border: 1px solid #ffffff;
+    background-color: #b1f9b1;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+  }
+
+.actions button:hover,
+.actions button:active {
+  background-color: hsla(105, 67%, 66%, 0.878);
+} */
