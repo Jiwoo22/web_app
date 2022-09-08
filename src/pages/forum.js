@@ -1,8 +1,13 @@
-import { withAuthenticator } from '@aws-amplify/ui-react';
+import { withAuthenticator } from "@aws-amplify/ui-react";
+import '@aws-amplify/ui-react/styles.css';
 
-function forum() {
-    return <h1>the forum page</h1>
-
+function forum(signOut, user) {
+  return (
+    <div>
+      <h1>hello {user.username}</h1>
+      <button onClick={signOut}>Sign Out</button>
+    </div>
+  );
 }
 
-export default withAuthenticator(forum)
+export default withAuthenticator(forum);
